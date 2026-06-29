@@ -33,9 +33,7 @@ Un sistema robusto de consola para la gestión y administración de tickets de s
 El proyecto está organizado siguiendo una arquitectura limpia basada en capas:
 
 ```text
-src/
-└── com/
-    └── soporte/
+     src/
         ├── Main.java                # Punto de entrada y gestión del menú interactivo
         ├── model/                   # Entidades puras del dominio (Ticket, Empleado, Tecnico)
         ├── enums/                   # Definición de Estados y Prioridades
@@ -44,26 +42,6 @@ src/
         └── utils/                   # Herramientas de formateo y validación de entradas
 
 ```
-## 💻 Cómo Ejecutar el Proyecto
- 1. **Clonar el repositorio:**
-   ```bash
-   git clone [https://github.com/ChessDW/SistemaGestionTicketsSoporte.git](https://github.com/ChessDW/SistemaGestionTicketsSoporte.git)
-   
-   ```
- 2. **Navegar al directorio:**
-   ```bash
-   cd nombre-del-repositorio/src
-   
-   ```
- 3. **Compilar los archivos:**
-   ```bash
-   javac com/soporte/Main.java
-   
-   ```
- 4. **Ejecutar la aplicación:**
-   ```bash
-   java com.soporte.Main
-   
-   ```
+
 ## 🧠 Aprendizajes Clave
 Este proyecto me permitió consolidar habilidades críticas para el desarrollo de software profesional, tales como el modelado de relaciones entre objetos, la separación estricta de responsabilidades entre la vista (consola) y la lógica de negocio, y la implementación de flujos seguros mediante el manejo avanzado de excepciones.
